@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Editor med ChatGPT</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div id="container">
+    <div id="editor">
+        <textarea id="markdown" placeholder="Skriv markdown her..."></textarea>
+    </div>
+    <div id="sidebar">
+        <div id="messages"></div>
+        <form id="chat-form">
+            <input id="chat-input" type="text" placeholder="Skriv melding..." autocomplete="off">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
